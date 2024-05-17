@@ -1,0 +1,10 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.separator{
+    height: 80%;
+    width: 2px;
+    background-color: #dddddd35;
+}
