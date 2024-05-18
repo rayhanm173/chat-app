@@ -15,8 +15,11 @@ export default function Home() {
     }
   return (
     <div className="container">
+      <div className="changeme">
       Welcome, It's time to sign in.
       <button onClick={()=>signIn('google')}>Sign in</button>
+      </div>
+      
     </div>
   );
 }
